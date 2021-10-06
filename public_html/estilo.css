@@ -1,0 +1,1274 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 4, 2021, 9:42:36 PM
+    Author     : Administrator
+*/
+html{
+    scroll-behavior:smooth;
+}
+body 
+{
+    font-family: Berlin Sans FB;
+    
+}
+h3
+{
+    color:#101F5B;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 15px;
+    font-family: verdana;
+}
+.presTit{
+    font-size:10px;
+}
+h5{
+    text-align: justify;
+}
+.secT{
+   background-color: rgba(255,255,255,0.3);
+   background-color: rgba(255,255,255,0.3);
+    text-align:center;
+    opacity: 1;
+}
+#boton1{
+    margin-top: 10px;
+    background-color: rgba(101,192,164,0.5);
+}
+#boton1:hover{
+    color:blue;
+     background-color: rgba(101,192,164,0.9);
+}
+#boton2{
+    position:relative;
+    margin-top: 10px;
+    background-color: rgba(101,192,164,0.5);
+    float:left;
+}
+#boton2:hover{
+    color:blue;
+     background-color: rgba(101,192,164,0.9);
+}
+#boton3{
+    background-color: rgba(101,192,164,0.5);
+    margin-top: 50px;
+    margin-right: 50%;
+}
+#boton3:hover{
+    color:blue;
+     background-color: rgba(101,192,164,0.9);
+}
+.desc_servicio 
+{
+    color:#101F5B;
+    text-align: justify;
+    font-size:15px;
+    
+   
+}
+header, section, footer 
+{
+
+    width: 960px; 
+	margin-right: auto; 
+	margin-left: auto;
+        
+}
+header 
+{
+	
+	height: 60px; 
+      background: -moz-linear-gradient(top, #FAB10A  , #FA6C0A );
+background: -webkit-gradient(linear, 0 0, 0 100%, from(#FAB10A ), to(#FA6C0A ));  
+position: sticky;
+top:0;
+z-index:1000;
+/* 
+     
+*/
+
+}
+
+#marca 
+{
+   
+   width: 140px;
+   height: 60px;
+   float: left;
+   
+}
+
+.img_logo
+{
+    width: 50px;
+    height: 60px;
+    float: left;
+     padding:10px;
+   box-sizing: border-box;
+  
+}
+.txt_logo
+{
+    width: 90px;
+    height: 60px;
+    float: right;
+     padding:10px;
+   box-sizing: border-box;
+  
+   
+}
+.txt_logo1
+{
+ 
+    color: #101F5B;
+    font-size: 19px;
+    font-family: 'Tourney', cursive;
+    text-align: center;  
+    margin:0;
+}
+.txt_logo2{
+    color: #101F5B;
+    font-size: 19px;
+    font-family: 'Tourney', cursive;
+    text-align: center;  
+    margin:0; 
+}
+
+.logo
+{
+   height:100%;
+float: left;
+}
+#botonera1
+{
+	
+	height: 60px;
+	width: 653px;
+	float: right;
+        display: inline;
+}
+#botonera1 ul 
+{
+margin:0;
+padding: 0;
+list-style-type: none;
+}
+#botonera1 ul li 
+{
+    display: inline;
+    
+     
+}
+#botonera1 ul li a 
+{
+   display: inline-block;
+    padding: 20px 2px;
+    
+    text-align: center;
+     color: #101F5B;
+     text-decoration: none;
+     
+     font-size: 15px;
+    
+     
+}
+#botonera1 ul li a:hover
+{
+    background-color: #D35400; 
+    -moz-box-shadow: 0px 0px 30px #101F5B;
+-webkit-box-shadow: 0px 0px 30px #101F5B;
+box-shadow: 0px 0px 30px #101F5B;
+}
+#presentacion
+{
+height:400px;
+background-color: #ff944d;
+}
+.txt_presentacion{
+    font-size: 15px;
+    font-family: Arial;
+   
+}
+#img_1
+{
+	
+    background-color: #cc00ff;
+	height: 400px;
+	width: 480px;
+	float: left;
+       background: -moz-linear-gradient(top, #FA6C0A  , #FAB10A );
+        background: -webkit-gradient(linear, 0 0, 0 100%, from(#FA6C0A ), to(#FAB10A));
+        padding:20px;
+        box-sizing: border-box;
+        text-align: center;
+        justify-content: center;
+}
+
+.servicio 
+{
+    color:#101F5B;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+    font-family: verdana;
+    
+}
+#txt_1
+{
+	background-color: #03CDFF;
+	height: 60px;
+	width: 480px;
+	float: right;
+        
+}
+#txt_2
+{
+	
+	width: 480px;
+	height: 400px;
+	float: right;
+        background: -moz-linear-gradient(top, #FA6C0A  , #FAB10A );
+        background: -webkit-gradient(linear, 0 0, 0 100%, from(#FA6C0A ), to(#FAB10A));
+        padding:20px;
+        box-sizing: border-box;
+        text-align: justify;
+        font-size:16px;
+   
+}
+
+#redes 
+{
+	
+	height: 60px;
+	width: 300px;
+	margin-top: 30px; 
+	margin-left: auto;
+	margin-right: auto;
+         text-align: center;
+}
+#redes ul
+    {
+margin:0;
+padding: 0;
+list-style-type: none;
+}
+#redes ul li 
+{
+    display: inline;
+    
+     
+}
+#redes ul li a 
+{
+   display: inline-block;
+    padding: 20px 2px;
+    
+    text-align: center;
+     color: #101F5B;
+     text-decoration: none;
+     
+     font-size: 15px;
+    
+     
+}
+#aireacondicionado
+{
+height: 402px;
+background-color: #0033cc;
+}
+#img_2
+{
+	
+	height: 402px;
+	width: 480px;
+	float: left;
+        background-image: url(imágenes/aireacondicionado1.jpg);
+        background-size: cover;
+}
+#opciones_aire
+{
+	background-color: #66b5ff;
+	height: 402px;
+	width: 480px;
+	float: right;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+#txt_3
+{
+	background-color: #cce6ff;
+	height: 134px;
+	width: 346px;
+	float: left;
+        background-image: url(imágenes/text_hielo2.jpg);
+        background-size: cover;
+        padding:5px;
+        box-sizing: border-box;
+}
+#img_3
+{
+	background-color: #004280;
+	height: 134px;
+	width: 134px;
+	float: left;
+}
+#txt_4
+{
+	background-color: #ffa366;
+	height: 134px;
+	width: 346px;
+	float: left;
+        background-image: url(imágenes/text_hielo2.jpg);
+        background-size: cover;
+        
+        padding:5px;
+        box-sizing: border-box;
+}
+#img_4
+{
+	background-color: #662900;
+	height: 134px;
+	width: 134px;
+	float: left;
+        
+}
+
+#txt_5
+{
+	background-color: #d279a6;
+	height: 134px;
+	width: 346px;
+	float: left;
+        background-image: url(imágenes/text_hielo2.jpg);
+        background-size: cover;
+        
+        padding:5px;
+        box-sizing: border-box;
+}
+#img_5
+{
+	background-color: #73264d;
+	height: 134px;
+	width: 134px;
+	float: left;
+}
+
+#luminaria
+{
+
+/*background-color:  #493B3B;*/
+background: -moz-linear-gradient(top, #FBF7D1 , #FEEB3E );
+        background: -webkit-gradient(linear, 0 0, 0 100%, from(#FBF7D1 ), to(#FEEB3E));
+}
+
+
+
+#colImgLum{
+   background-color: #ffff80;
+   background-image: url(imágenes/luminaria1.jpg);
+   background-size: cover;
+}
+
+
+
+#electricidad
+{
+
+background: -moz-linear-gradient(top, #FEEB3E , #FBF7D1 );
+        background: -webkit-gradient(linear, 0 0, 0 100%, from(#FEEB3E ), to(#FBF7D1));
+}
+
+
+#colImgElec{
+    background-image: url(imágenes/electricidad1.jpg);
+   background-size: cover;
+   
+}
+
+
+#electrodoméstico
+{
+
+background: -moz-linear-gradient(top, #EFF9FE , #00AAFE );
+background: -webkit-gradient(linear, 0 0, 0 100%, from(#EFF9FE ), to(#00AAFE ));
+}
+
+
+#colImgElectro{
+    background-image: url(imágenes/electrodomestico1.jpg);
+   background-size: cover;
+   
+}
+
+
+
+#pintura
+{
+	background: -moz-linear-gradient(top, #6400FE  , #D5BCFC );
+background: -webkit-gradient(linear, 0 0, 0 100%, from(#6400FE ), to(#D5BCFC ));
+	
+}
+
+
+#colImgPaint{
+        background-image: url(imágenes/pintura1.jpg);
+   background-size: cover;
+   
+}
+
+
+
+#presupuesto
+{
+
+padding:0;
+height: 650px;
+
+background: -moz-linear-gradient(top, #FAB10A  , #FA6C0A );
+background: -webkit-gradient(linear, 0 0, 0 100%, from(#FAB10A ), to(#FA6C0A ));  
+}
+#form1{
+   display: block;
+}
+#form2{
+    display: none;
+   text-align: center;
+ 
+}
+#pres-row1{
+    height: 600px;
+    
+}
+#pres-row2{
+    height: 200px;
+    background-color: transparent;
+    
+}
+#pres-row3{
+    height: 400px;
+    background-color: transparent;
+}
+
+#pres-col1{
+    background-color: transparent;
+}
+#pres-col2{
+    background-color: transparent;
+}
+#pres-col3{
+    background-color: transparent;
+}
+#presupuesto1{
+    width: 20px;
+    height: 450px;
+    float: left;
+    background-color: transparent;
+}
+#presupuesto2{
+    width: 920px;
+    height: 450px;
+    float:left; 
+    background-color:#ccccff;
+}
+#sel_presupuesto
+{
+	
+	height: 60px;
+	width: 145px;
+	float: left;
+        display: block;
+        text-align: center;
+        
+        
+
+       
+}
+#sel_presupuesto ul 
+{
+margin:0;
+padding: 0;
+list-style-type: none;
+}
+#sel_presupuesto ul li 
+{
+    display: block;
+    background-color: orange;
+   
+}
+#sel_presupuesto ul li a 
+{
+   display: inline-block;
+    padding: 10px 10px;
+    
+    text-align: center;
+     color: #101F5B;
+     text-decoration: none;
+     
+     font-size: 15px;
+    background-color: orange;
+     
+}
+#sel_presupuesto ul li a:hover
+{
+    background-color: #D35400; 
+    
+}
+#sel_pres{
+  
+    
+
+    display:block;
+    top:10px;
+    
+}
+.centrarCaja{
+    position: relative;
+    left: 25%;
+}
+#texto_sel{
+    
+    width: 110px;
+    float:  left;
+    height: 202px;
+}
+.disponible{
+    text-align: center;
+    padding: 5px;
+    color: green;
+    font-weight:  normal;
+    font-size: 14px;
+}
+.no_disponible{
+    text-align: center;
+    padding: 7px;
+    color: red;
+    font-weight:  normal;
+    font-size: 14px;
+    
+}
+#paint_app{
+    
+    background-color:#99ff99;
+    width: 230px;
+    height: 380px;
+    
+    display:none;
+}
+#optPaint{
+   
+    float:left;
+}
+.opt_paint{
+    padding:0;
+    margin:0;
+}
+#select{
+    position:relative;
+    left:10px;
+    top:10px;
+}
+#pPared{
+    
+    background-color: transparent;
+    width: 230px;
+    height: 250px;
+  
+    
+    display:none;
+    
+}
+#pMetalica{
+  
+    background-color: transparent;
+    width: 230px;
+    height: 250px;
+    
+
+    display:none;
+    
+}
+#select2{
+  position:relative;
+    left:10px;
+    top:10px;
+}
+#viaticosT{
+    display:none;
+}
+#lblViaticos{
+    position:relative;
+    left: 10px;
+    top:10px;
+}
+.p_viatico{
+    padding:0px;
+    margin: 0px;
+   
+}
+#mts_ancho{
+    position:relative;
+    left: 10px;
+    top: 10px;
+}
+#mts_largo{
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+#btnCalcular{
+    position:relative;
+    left:10px;
+    top:10px;
+}
+#r_pared{
+    position:relative;
+    left:10px;
+    top:10px;
+}
+#superficie_p{
+    position:relative;
+    left:10px;
+    top:10px;
+}
+#total_p{
+    position:relative;
+    left:10px;
+    top:10px;
+}
+#txtViaticos{
+    position:relative;
+    left:10px;
+    top:10px;
+}
+#select3{
+  position:relative;
+    left:10px;
+    top:10px;
+}
+#lblViaticos1{
+    position:relative;
+    left: 10px;
+    top:10px;
+}
+#p_viatico1{
+    padding:0px;
+    margin: 0px;
+   
+}
+#mts_ancho1{
+    position:relative;
+    left: 10px;
+    top: 10px;
+}
+#mts_largo1{
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+#btnCalcular1{
+    position:relative;
+    left:10px;
+    top:10px;
+}
+#btnRegresar{
+     position:relative;
+    left:10px;
+    top:10px;
+}
+#btnRegresar1{
+     position:relative;
+    left:10px;
+    top:10px;
+}
+#r_pared1{
+    position:relative;
+    left:10px;
+    top:10px;
+}
+#superficie_p1{
+    position:relative;
+    left:10px;
+    top:10px;
+}
+#total_p1{
+    position:relative;
+    left:10px;
+    top:10px;
+}
+#txtViaticos1{
+    position:relative;
+    left:10px;
+    top:10px;
+}
+#select{
+    position:relative;
+    left:40px;
+    top:10px;
+}
+#presupuesto3{
+    width: 20px;
+    height: 450px;
+    float: left;
+    background-color: transparent;
+}
+.presupuesto_script {
+    margin-top:20px;
+    text-align: center;
+    color:green;
+    font-weight: bold;
+    font-size:16px;
+    font-family: arial;
+    
+}
+.viaticos_script{
+     margin-top:20px;
+    text-align: center;
+    color:blueviolet;
+    
+    font-size:14px;
+    font-family: arial;
+}
+
+#contacto 
+{
+height: auto;
+  background: -moz-linear-gradient(top, #FA6C0A  , #FAB10A );
+        background: -webkit-gradient(linear, 0 0, 0 100%, from(#FA6C0A ), to(#FAB10A));
+}
+footer 
+{
+background-color: orange; 
+	height: 60px; 
+        background: -moz-linear-gradient(top, #FAB10A  , #FA6C0A );
+background: -webkit-gradient(linear, 0 0, 0 100%, from(#FAB10A ), to(#FA6C0A ));
+}
+#marca2 
+{
+  width: 140px;
+   height: 60px;
+   float: left;
+}
+#redes2 
+{
+	
+        float: right;
+        height: 60px;
+	width: 170px;
+	 
+	
+         text-align: center;
+}
+#redes2 ul
+    {
+margin:0;
+padding: 0;
+list-style-type: none;
+}
+#redes2 ul li 
+{
+    display: inline;
+    
+     
+}
+#redes2 ul li a 
+{
+   display: inline-block;
+    padding: 20px 2px;
+    
+    text-align: center;
+     color: #101F5B;
+     text-decoration: none;
+     
+     font-size: 15px;
+    
+     
+}
+.whatsapp 
+{
+    height: 100%;
+}
+
+#btn_responsive{
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+    float: right;
+    padding:5px;
+    box-sizing: border-box;
+    display: none;
+}
+
+#btn_responsive a{
+    display: block;
+    text-decoration: none;
+    color: #101F5B;
+    font-size:40px;
+}/*El ícono es un elemento de texto, por lo que se le da tamaño como si fuese una letra*/
+
+
+
+
+@media all and (min-width:600px ) and (max-width:1023px){
+
+
+header, section, footer 
+{
+	width: 580px; 
+	
+        
+}
+header 
+{
+    
+     
+    height: 60px;
+ 
+}
+#marca 
+{
+   
+  height: auto;
+   float: left;
+   margin-left: auto;
+   margin-right: auto;
+   width: 140px;
+   
+  
+}
+#btn_responsive{
+    display: block;
+    
+}
+
+
+
+
+
+#botonera1
+{
+	
+	
+	width: 580px;
+        height: auto;
+        display:none;
+	
+}
+
+
+#botonera1 ul li 
+{
+    display: block;
+    text-align: center;
+    
+     
+}
+#botonera1 ul li a 
+{
+   display:block;
+   font-size: 17px;      
+}
+
+#presentacion
+{
+height:700px;
+
+}
+#img_1
+{
+	
+    
+	width: 580px;
+	height: 300px;
+}
+
+
+#txt_1
+{
+	
+	width: 580px;
+	
+        
+}
+#txt_2
+{
+	
+	width: 580px;
+	
+   
+}
+
+
+
+#aireacondicionado
+{
+height: 804px;
+
+}
+#img_2
+{
+	
+	
+	width: 580px;
+	
+}
+#opciones_aire
+{
+	
+	
+	width: 580px;
+	
+}
+#txt_3
+{
+	
+	width: 446px;
+	float: left;
+        
+}
+
+#txt_4
+{
+	
+	width: 446px;
+	
+}
+
+#txt_5
+{
+	
+	width: 446px;
+	
+}
+
+
+#colImgLum{
+    height: 400px;
+    
+}
+
+
+
+
+#colImgElec{
+ 
+   height: 400px;
+}
+
+
+
+#colImgElectro{
+ 
+   height: 400px;
+}
+
+
+
+
+
+#colImgPaint{
+ 
+   height: 400px;
+}
+
+
+
+#presupuesto1{
+    width: 10px;
+    height: 450px;
+}
+#presupuesto2{
+    width: 560px;
+    height: 450px;
+}
+#sel_pres{
+    
+    left:160px;
+    
+    
+}
+#paint_app{
+   
+    left: 165px;
+    
+}
+#presupuesto3{
+    width: 10px;
+   height: 450px;
+}
+
+
+
+}/*finmedia 600 a 1000px*/
+@media all and (min-width: 1px ) and (max-width: 599px){
+    h3
+{
+    color:#101F5B;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+    font-family: verdana;
+}
+.desc_servicio 
+{
+    color:#101F5B;
+    text-align: justify;
+    font-size:16px;
+    
+   
+}
+header, section, footer 
+{
+
+    width: 90%; 
+    
+	
+        
+}
+header 
+{
+ height: 60px;	
+width: 90%;
+
+
+
+}
+#marca 
+{
+   
+   width: 140px;
+    margin-left: auto;
+   margin-right: auto;
+   float: left;
+   
+}
+#btn_responsive{
+    
+    display:block;
+    float:right;
+}
+
+#botonera1
+{
+	
+	height: auto;
+	width: 100%;
+	float: left;
+        display: none;
+}
+
+
+
+#botonera1 ul li 
+{
+    display: block;
+    text-align: center;
+    
+     
+}
+#botonera1 ul li a 
+{
+   display:block;
+   font-size: 17px;      
+}
+#presentacion
+{
+height:900px;
+
+}
+#img_1
+{
+	
+    
+	width: 100%;
+	height: 450px;
+}
+
+
+#txt_1
+{
+	
+	width: 100%;
+	
+        
+}
+#txt_2
+{
+	
+	width: 100%;
+        height:450px;
+	
+   
+}
+#aireacondicionado
+{
+height: 1406px;
+
+}
+#img_2
+{
+	
+	height: 452px;
+	width: 100%;
+	
+}
+#opciones_aire
+{
+	
+	height: 954px;
+	width: 100%;
+	
+}
+#txt_3
+{
+	height: 184px;
+	width: 100%;
+	float: left;
+        
+}
+#img_3
+{
+	background-color: whitesmoke;
+	height: 134px;
+	width: 100%;
+	
+        text-align: center;
+       
+}
+
+#txt_4
+{
+	height: 184px;
+	width: 100%;
+	
+}
+#img_4
+{
+	background-color: whitesmoke;
+	height: 134px;
+	width: 100%;
+	
+        text-align: center;
+       
+}
+#txt_5
+{
+	height: 184px;
+	width: 100%;
+	
+}
+#img_5
+{
+	background-color: whitesmoke;
+	height: 134px;
+	width: 100%;
+	
+        text-align: center;
+       
+}
+
+#colImgLum{
+    height: 400px;
+    
+}
+
+
+#colImgElec{
+ 
+   height: 400px;
+}
+
+
+
+#colImgElectro{
+ 
+   height: 400px;
+}
+
+
+
+#colImgPaint{
+ 
+   height: 400px;
+}
+
+#presupuesto
+{
+width: 90%;
+
+}
+#presupuesto1{
+    width: 10%;
+   height: 450px;
+    display:none;
+}
+#presupuesto2{
+    width: 100%;
+  margin-bottom: 0px;
+   height: 450px;
+}
+ #sel_pres{
+    position:static;
+    margin-left: 7%;
+   
+    
+}
+#texto_sel{
+    
+    width: 130px;
+    float:  left;
+    height: 202px;
+}
+#paint_app{
+   position:static;
+    margin-left: 7%;
+    
+}   
+#sel_presupuesto
+{
+	height: 60px;
+	width: 145px;
+	float: left;
+        display: block;
+        text-align: center;
+            
+       }
+#presupuesto3{
+    width: 10%;
+    height: 450px;
+    display:none;
+    
+}
+
+footer 
+{
+background-color: orange; 
+	height: 120px; 
+        background: -moz-linear-gradient(top, #FAB10A  , #FA6C0A );
+background: -webkit-gradient(linear, 0 0, 0 100%, from(#FAB10A ), to(#FA6C0A ));
+}
+#marca2 
+{
+ width: 140px;
+    margin-left: auto;
+   margin-right: auto;
+   float: none;
+}
+#redes2 
+{
+	
+       width: 100%;
+	float: none;
+        margin-left: auto;
+   margin-right: auto;
+}
+.txt_presentacion{
+    font-size: 13px;
+   
+}
+
+}/*finmedia 0a600px*/

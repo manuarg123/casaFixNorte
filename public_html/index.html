@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html> 
+<head>
+	<title>Proyecto norte casa fix</title>
+	<meta charset="utf-8"/>
+	<link href="estilo.css" rel="stylesheet" />
+       
+        
+        <!-- Hoja de estilos de BootStrap -->  
+         <link rel="stylesheet" href="css/bootstrap.min.css">
+      
+         
+         <!-- Tipografía google-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tourney:wght@900&display=swap" rel="stylesheet">
+
+
+<!-- Iconos tipográficos-->
+<link href="iconos.css" type="text/css" rel="stylesheet" />
+
+<!-- Responsive-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+	<header>
+            
+            <div id="marca">
+                 <div class="img_logo">
+                <img  src="imágenes/logo.png"  class="logo" alt="logo.png">
+                                </div>
+                
+                <div class="txt_logo">
+                <h1 class="txt_logo1">CasaFix Norte</h1>
+                </div>
+                </div>
+                
+                
+            <!-- -->    
+            <nav id="btn_responsive"><a href="#" onclick="mHamburg()"><span class="icon-menu3"></span></a></nav>
+            <nav id="botonera1">
+                <ul>
+                    <li><a href="#aireacondicionado" onclick="mHamburg()">Aire Acondicionado</a></li>
+                    <li><a href="#luminaria" onclick="mHamburg()">Luminaria</a></li>
+                    <li><a href="#electricidad" onclick="mHamburg()">Electricidad</a></li>
+                    <li><a href="#electrodoméstico" onclick="mHamburg()">Electrodomésticos</a></li>
+                    <li><a href="#pintura" onclick="mHamburg()">Pintura</a></li>
+                    <li><a href="#presupuesto" onclick="mHamburg()">Presupuesto</a></li>
+                    <li><a href="#contacto" onclick="mHamburg()">Contacto</a></li>
+                    
+                </ul>
+            </nav>
+            
+	</header>
+	
+	<section id="presentacion">
+            <div id="img_1">
+                 <div id="centrado">
+                <img  src="imágenes/aireacondicionado.png"  id="air_img" alt="aireacondicionado.png">
+                <img  src="imágenes/luminaria.png"  id="luz_img" alt="luminaria.png">
+                <img  src="imágenes/electricidad.png"  id="elec_img" alt="electricidad.png">
+                <img  src="imágenes/electrodomésticos.png"  id="el_img" alt="electrodoméstico.png">
+                <img  src="imágenes/pintura.png"  id="pint_img" alt="pintura.png">
+                </div>
+            </div>
+		
+		<div id="txt_2">
+                    <h2 class="servicio">Mantenimiento del Hogar</h2>
+                        <p class="txt_presentacion"> CasaFix Norte, es una empresa dedicada a brindar soluciones para el hogar. Ofrecemos diferentes servicios, detallados a continuación, en Córdoba Capital y alrededores.</p>
+                        <p class="txt_presentacion">Consulte con nuestros profesionales por soluciones y presupuestos para su hogar. Nos especializamos en Aires acondicionados, luminarias, electricidad domiciliaria, instalación de electrodomésticos y pintura. No dude en preguntar por otros servicios relacionados.</p>
+                        <p class="txt_presentacion">¡Seguinos en las redes sociales! </p>
+                        <nav id="redes">
+                             <ul>
+                                 <li><a href="https://google.com" target="new"><img  src="imágenes/whatsapp.png"   alt="whatsapp.png"></a></li>
+                               <li><a href="https://facebook.com/" target="new"><img  src="imágenes/facebook.png"   alt="facebook.png"></a></li>
+                                <li><a href="https://instagram.com/" target="new"><img  src="imágenes/instagram.png"   alt="instagram.png"></a></li>
+                                <li><a href="https://twitter.com" target="new"><img  src="imágenes/twitter.png"   alt="twitter.png"></a></li>
+                                      
+                            </ul>
+                        </nav>
+		</div>
+	</section>
+
+	<section id="aireacondicionado">
+            <div id="img_2">
+               <h2 class="secT">Aire acondicionado</h2> 
+            </div>
+		<div id="opciones_aire">
+                    <div id="txt_3">
+                        <h3>Instalación</h3>
+                        <p class="desc_servicio">Instalaciones de Split garantizadas, a gusto del cliente y según la normativa vigente. Recuperación de equipos usados para su instalación. </p>
+                    </div>
+			<div id="img_3"><img  src="imágenes/aireacondicionado2.jpg" alt="aireacondicionado2.jpg"></div>
+                     <div id="txt_4">
+                        <h3>Reparación</h3>
+                        <p class="desc_servicio">Reparación de equipos dañados. Carga de gas, cambio de lugar del equipo, cambio de control remoto, etc. Diagnóstico y solución del problema.</p>
+                     </div>
+			<div id="img_4"><img  src="imágenes/aireacondicionado3.jpg" alt="aireacondicionado3.jpg"></div>
+                        <div id="txt_5">
+                            <h3>Mantenimiento</h3>
+                            <p class="desc_servicio">Solicite el mantenimiento del equipo, para prevenir fallas y lograr un rendimiento óptimo. Limpieza de unidades externa e interna.</p>
+                        </div>
+			<div id="img_5"><img  src="imágenes/aireacondicionado4.jpg" alt="aireacondicionado4.jpg"></div>
+		</div>
+
+	</section>
+       
+	<section id="luminaria">  <!-- Maqueta Bootstrap-->
+            <div class="container-fluid">
+                <div class="row" id="lumCont" >  
+                    <div class="col-lg-6 col-sm-12 col-xs-12" id="colImgLum" ><h2 class="secT">Luminarias</h2></div>   <!--id="img_6"-->
+                    <div class="col-lg-6 col-sm-12 col-xs-12">    <!--id="opciones_luminaria"-->
+                        <div class="row" id="rowOptLum1">
+                            <div class="col-lg-7 col-sm-7 col-xs-12">
+                                <div class="row" id="txt_6">    <!---->
+                                    <h3>Remodelación</h3>
+                                    <p class="desc_servicio">Te asesoramos  y llevamos a cabo proyectos de remodelación de luminarias, para modernizar o cambiar el estilo de la iluminación de tu hogar.</p>  
+                                </div>
+                            </div>
+                            <div class="col-lg-5 col-sm-5 col-xs-12">
+                                <div class="row" id="img_7"><img src="imágenes/luminaria2a.jpg" class="img-fluid" alt="..."></div>
+                            </div>
+                         </div>
+                        <div class="row" id="rowOptLum2">
+                            <div class="col-lg-7 col-sm-7 col-xs-12"> 
+                                <div class="row" id="txt_7">    <!---->
+                                    <h3>Reparacion</h3>
+                                    <p class="desc_servicio">Reparamos y ponemos en valor, aquellas luminarias que han quedado perjudicadas por el paso del tiempo, para revivir el aspecto de la iluminación original de tu hogar.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 col-sm-5 col-xs-12">
+                               <!---->
+                            
+                                <div class="row" id="img_8"><img src="imágenes/luminaria3.jpg" class="img-fluid" alt="..."></div> <!---->
+                            </div>
+                         </div>
+                    </div>
+                </div>    
+            </div>
+
+	</section>
+	
+	<section id="electricidad"><!-- Maqueta Bootstrap-->
+		
+           <div class="container-fluid">
+                <div class="row" id="elecCont" >  
+                    <div class="col-lg-6 col-sm-12 col-xs-12" id="colImgElec"><h2 class="secT">Electricidad domiciliaria</h2></div>   <!--id="img_6"-->
+                    <div class="col-lg-6 col-sm-12 col-xs-12">    <!--id="opciones_luminaria"-->
+                        <div class="row" id="rowOptElec1">
+                            <div class="col-lg-7 col-sm-7 col-xs-12">
+                                <div class="row" id="txt_8">    <!---->
+                                    <h3>Modernización</h3>
+                                    <p class="desc_servicio">Asesoramiento y ejecución de una modernización eléctrica, cambiando enchufes, interruptores, y cableados que requieran un avance a los estandares elécticos actuales.</p>  
+                                </div>
+                            </div>
+                            <div class="col-lg-5 col-sm-5 col-xs-12">
+                                <div class="row" id="img_10"><img src="imágenes/electricidad2c.jpg" class="img-fluid" alt="..."></div>
+                            </div>
+                         </div>
+                        <div class="row" id="rowOptElec2">
+                            <div class="col-lg-7 col-sm-7 col-xs-12"> 
+                                <div class="row" id="txt_9">    <!---->
+                                    <h3>Seguridad</h3>
+                                    <p class="desc_servicio">Instalación de sistemas de seguridad eléctrica, tales como llaves térmicas, disyuntores y protectores de tensión, para la protección humana y de los diversos aparatos eléctricos.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 col-sm-5 col-xs-12">
+                               <!---->
+                            
+                                <div class="row" id="img_11"><img src="imágenes/electricidad4b.jpg" class="img-fluid" alt="..."></div> <!---->
+                            </div>
+                         </div>
+                         <div class="row" id="rowOptElec3">
+                            <div class="col-lg-7 col-sm-7 col-xs-12">
+                                <div class="row" id="txt_10">    <!---->
+                                    <h3>Reparacion</h3>
+                                    <p class="desc_servicio">Evaluamos y solucionamos los diversos problemas eléctricos que se te pueden presentar, como cortes de luz, pérdidas eléctricas, mal funcionamiento de enchufes o timbres, salto de disyuntores, entre otras.</p>  
+                                </div>
+                            </div>
+                            <div class="col-lg-5 col-sm-5 col-xs-12">
+                                <div class="row" id="img_12"><img src="imágenes/electricidad3b.jpg" class="img-fluid" alt="..."></div>
+                            </div>
+                         </div>
+                    </div>
+                </div>    
+            </div>    
+	</section>
+	<section id="electrodoméstico"><!-- Maqueta Bootstrap-->
+		
+            <div class="container-fluid">
+                <div class="row" id="electroCont" >  
+                    <div class="col-lg-6 col-sm-12 col-xs-12" id="colImgElectro"><h2 class="secT">Electrodomésticos</h2></div>   <!--id="img_6"-->
+                    <div class="col-lg-6 col-sm-12 col-xs-12">    <!--id="opciones_luminaria"-->
+                        <div class="row" id="rowOptElectro1">
+                            <div class="col-lg-7 col-sm-7 col-xs-12">
+                                <div class="row" id="txt_11">    <!---->
+                                    <h3>Lavarropa</h3>
+                                    <p class="desc_servicio">Instalación de lavarropas nuevos o usados, gestión de cañerias y conexiones eléctricas para su funcionamiento.</p>  
+                                </div>
+                            </div>
+                            <div class="col-lg-5 col-sm-5 col-xs-12">
+                                <div class="row" id="img_14"><img src="imágenes/electrodomestico2.jpg" class="img-fluid" alt="..."></div>
+                            </div>
+                         </div>
+                        <div class="row" id="rowOptElectro2">
+                            <div class="col-lg-7 col-sm-7 col-xs-12"> 
+                                <div class="row" id="txt_12">    <!---->
+                                    <h3>Ventilador</h3>
+                                    <p class="desc_servicio">Instalación o desinstalación de ventiladores de techo en sus distintas versiones, asesoramiento para su ubicación.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 col-sm-5 col-xs-12">
+                               <!---->
+                            
+                                <div class="row" id="img_15"><img src="imágenes/electrodomestico3.jpg" class="img-fluid" alt="..."></div> <!---->
+                            </div>
+                         </div>
+                         <div class="row" id="rowOptElectro3">
+                            <div class="col-lg-7 col-sm-7 col-xs-12">
+                                <div class="row" id="txt_13">    <!---->
+                                    <h3>Campana</h3>
+                                    <p class="desc_servicio">Instalación o desinstalación de extractores de cocina ya sea internos o externos.</p>  
+                                </div>
+                            </div>
+                            <div class="col-lg-5 col-sm-5 col-xs-12">
+                                <div class="row" id="img_16"><img src="imágenes/electrodomestico4b.jpg" class="img-fluid" alt="..."></div>
+                            </div>
+                         </div>
+                    </div>
+                </div>    
+            </div>    
+	</section>
+	<section id="pintura"><!-- Maqueta Bootstrap-->
+		
+          <div class="container-fluid">
+                <div class="row" id="paintCont" >  
+                    <div class="col-lg-6 col-sm-12 col-xs-12" id="colImgPaint"><h2 class="secT">Pintura</h2></div>   <!--id="img_6"-->
+                    <div class="col-lg-6 col-sm-12 col-xs-12">    <!--id="opciones_luminaria"-->
+                        <div class="row" id="rowOptPaint1">
+                            <div class="col-lg-7 col-sm-7 col-xs-12">
+                                <div class="row" id="txt_14">    <!---->
+                                    <h3>Pared</h3>
+                                    <p class="desc_servicio">Presupuestamos y realizamos la pintura de las paredes. Preparación de la superficie con el correspondiente sellado de fisuras y realización de algunas refacciones.</p>  
+                                </div>
+                            </div>
+                            <div class="col-lg-5 col-sm-5 col-xs-12">
+                                <div class="row" id="img_18"><img src="imágenes/pintura2.jpg" class="img-fluid" alt="..."></div>
+                            </div>
+                         </div>
+                        <div class="row" id="rowOptPaint2">
+                            <div class="col-lg-7 col-sm-7 col-xs-12"> 
+                                <div class="row" id="txt_15">    <!---->
+                                    <h3>Metalica</h3>
+                                    <p class="desc_servicio">Puesta en valor, restauración y pintura de rejas y demás estructuras metálicas de exteriores e interiores.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 col-sm-5 col-xs-12">
+                               <!---->
+                            
+                                <div class="row" id="img_19"><img src="imágenes/pintura3.jpg" class="img-fluid" alt="..."></div> <!---->
+                            </div>
+                         </div>
+                    </div>
+                </div>    
+            </div>
+	</section>
+    <section id="presupuesto">
+       <div class="container-fluid">
+           <div class="row justify-content-center" id='pres-row1' >
+                
+               <div class="col-lg-6 col-sm-8 col-xs-12" id ="pres-col2">
+                   <div class="row justify-content-center" id="pres-row2">
+                            <h3 id="presTit">Obtenga un presupuesto estimado:</h3>
+                            <h5>En esta sección puede obtener un presupuesto estimado para el servicio que necesita. El presupuesto definitivo lo obtendrá una vez sea evaluado el trabajo en su vivienda. </h5>
+                            </div>
+                    <div class="row justify-content-center" id="pres-row3">
+                        <div id="form1">
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Ingrese su nombre:</label>
+                                 <input  type="email" class="form-control" id="imputNombre" placeholder="Nombre">
+                            </div>
+                             <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Seleccione su localidad, o la más cercana en un radio de 30km:</label>
+                             <select class="form-select" aria-label="Default select example" id="selectLoc" onchange="pMetalica()">
+                                     <option value="0" selected>Seleccionar</option>
+                                        <option value="1" >Malagueño</option>
+                                        <option value="2" >Unquillo</option>
+                                        <option value="3">Rio Ceballos</option>
+                                        <option value="4" >La Calera</option>
+                                         <option value="5" >Saldán</option>
+                                         <option value="6">Rio Segundo</option>
+                                            <option value="7" >Pilar</option>
+                                        <option value="8" >Alta Gracia</option>
+                                            <option value="9">Carlos Paz</option>
+                                        <option value="10" >Despeñaderos</option>
+                                        <option value="11" >Salsipuedes</option>
+                                        <option value="12">Agua de Oro</option>
+                                        <option value="13" >La Granja</option>
+                                        <option value="14" >Anisacate</option>
+                                        <option value="15">Santa Rosa de Calamuchita</option>
+                                         <option value="16" >Villa General Belgrano</option>
+                                         <option value="17" >Embalse</option>
+                                            <option value="18">Arroyito</option>
+                                         <option value="19">Córdoba Capital</option>
+                                         <option value="20">Mendiolaza</option>
+                                        <option value="21">Otra localidad</option>
+                            </select>
+                            <button type="button" class="btn btn-primary btn-lg" id="boton1"  onclick="openForm2()">Siguiente</button>
+                           </div>
+                        </div>
+                <div id="form2" >
+                    <div id="viaticosT"></div>
+                    <label for="exampleFormControlInput1" class="form-label" id="lblForm2"></label>         
+                    <button type="button" class="btn btn-primary btn-lg" id="boton2"  onclick="regresar()">Regresar</button>
+                    
+                    <div  class="centrarCaja" id="sel_pres">      
+                            <nav id="sel_presupuesto">
+                             <ul>
+                                 <li><a>Aire Acondicionado</a></li>
+                                 <li><a>Luminaria</a></li>
+                                 <li><a>Electricidad</a></li>
+                                 <li><a>Electrodomésticos</a></li>
+                                 <li><a onclick="presentPaint();">Pintura </a></li>
+                                       
+                             </ul>
+                            </nav>
+                    <div id="texto_sel">
+                             <p class="no_disponible">En construcción</p>
+                             <p class="no_disponible">En construcción</p>
+                             <p class="no_disponible">En construcción</p>
+                             <p class="no_disponible">En construcción</p>
+                             <p class="disponible">Disponible</p>
+                    </div>
+                        <button type="button" class="btn btn-primary btn-lg" id="boton3"  onclick="regresar()">Regresar</button>
+                    </div>
+                    
+               </div>
+               <div id="paint_app">
+                      <div id="optPaint"><p class="opt_paint">Seleccione una opción:</p></div>
+                <select  id="select" onchange="optPintura()">
+                    <option value="0" selected>Seleccionar</option>
+                    <option value="1" >Pintura de Pared</option>
+                    <option value="2" >Pintura Metalica</option>
+                </select>   
+                <div id="pPared">
+                   
+                    
+                    <div id="mts_ancho"><input type="text" id="mtsAncho" autocomplete="off" placeholder="Ingrese Metros de Ancho" /></div>
+                    <div id="mts_largo"><input type="text" id="mtsLargo" autocomplete="off" placeholder="Ingrese Metros de Alto" /></div>
+                    <div><input type="button" value="Calcular" id="btnCalcular" onclick="calcularP();"></div>
+                    <div><input type="button" value="Regresar" id="btnRegresar" onclick="regresar1();"></div>
+                    <div id="superficie_p"></div>
+                    <div id="r_pared"></div>
+                    <div id="lblViaticos"></div>
+                    <div id="total_p"></div>
+               </div>
+               <div id="pMetalica">
+                          
+                    
+                    <div id="mts_ancho1"><input type="text" id="mtsAncho1" autocomplete="off" placeholder="Ingrese Metros de Ancho" /></div>
+                    <div id="mts_largo1"><input type="text" id="mtsLargo1" autocomplete="off" placeholder="Ingrese Metros de Alto" /></div>
+                    <div><input type="button" value="Calcular" id="btnCalcular1" onclick="calcularM();"></div>
+                    <div><input type="button" value="Regresar" id="btnRegresar1" onclick="regresar1();"></div>
+                    <div id="superficie_p1"></div>
+                    <div id="r_pared1"></div>
+                    <div id="lblViaticos1"></div>
+                    <div id="total_p1"></div>
+               </div>       
+               
+           </div>
+           
+        </div>
+     
+
+    </section>
+    <section id="contacto">
+        <!--Acordeon Bootstrap-->
+         <div class="container-fluid">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingOne">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+        ¿Quienes Somos?
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">CasaFix Norte, es una empresa con 10 años de trayectoria brindando servicios de <strong>mantenimiento del hogar</strong>, que garantiza soluciones experimentadas.</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+       ¿Donde estamos?
+      </button>
+    </h2>
+    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Nos encontramos en la zona norte de <strong>Córdoba Capital</strong>, en Los Boulevares</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+       ¿Como nos ponemos en contacto?
+      </button>
+    </h2>
+    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Escriba o llame al <strong>3512783745</strong>, y estaremos en contacto! </div>
+    </div>
+  </div>
+</div>
+          </div>
+        <!--Fin Acordeon Bootstrap-->
+    </section>
+        
+	<footer>
+		<div id="marca2"> <div class="img_logo">
+                <img  src="imágenes/logo.png"  class="logo" alt="logo.png">
+                                </div>
+                
+                <div class="txt_logo">
+                <h6 class="txt_logo2">CasaFix Norte</h6>
+                </div></div>
+            <nav id="redes2">
+                <ul>
+                                 <li><a href="https://google.com" target="new"><img  src="imágenes/whatsapp.png"  alt="whatsapp.png"></a></li>
+                               <li><a href="https://facebook.com/" target="new"><img  src="imágenes/facebook.png"   alt="facebook.png"></a></li>
+                                <li><a href="https://instagram.com/" target="new"><img  src="imágenes/instagram.png"   alt="instagram.png"></a></li>
+                                <li><a href="https://twitter.com" target="new"><img  src="imágenes/twitter.png"   alt="twitter.png"></a></li>
+                                      
+                            </ul>
+            </nav>
+	</footer>
+        <!-- Archivos JavaScript Propios-->
+        <script type="text/javascript" src="js/m_hambur.js"> </script><!-- Cuando necesitamos vincular un script que ejecuta funciones con el DOM, hay que hacerlo
+        al último, luego de que el navegador haya procesado todo el html-->
+        <script type="text/javascript" src="js/p_Pared.js"> </script>
+        <script type="text/javascript" src="js/p_Metalica.js"> </script>
+        <script type="text/javascript" src="js/opt_pintura.js"> </script>
+        <script type="text/javascript" src="js/mObra_pared.js"> </script>
+        <script type="text/javascript" src="js/mObra_metalica.js"> </script>
+        <script type="text/javascript" src="js/pintura_app.js"> </script>
+        <script type="text/javascript" src="js/regresar.js"> </script>
+        <script type="text/javascript" src="js/regresar1.js"> </script>
+        <script type="text/javascript" src="js/openForm2.js"> </script>
+        <!-- Archivos JavaScript de BootsTrap  </script> -->
+       <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
